@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "706acd7b-cd05-4d51-8ac6-c2256d057be0",
+		"name": "IngHub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8770577"
+	},
+	"item": [
+		{
+			"name": "create-stock",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json;charset=utf-8"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Stock2\",\r\n    \"description\": \"Stock 2\",\r\n    \"amount\": {\r\n        \"currency\": \"EUR\",\r\n        \"value\": 5000,\r\n        \"minorUnit\": 2\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/api/v1/stock",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"api",
+						"v1",
+						"stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-stock",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8181/api/v1/stock/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"api",
+						"v1",
+						"stock",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-stock",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json;charset=utf-8"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"currency\": \"TRY\",\r\n  \"value\": 50,\r\n  \"minorUnit\": 0\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/api/v1/stock/2/amount",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"api",
+						"v1",
+						"stock",
+						"2",
+						"amount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-stock-exchange",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json;charset=utf-8"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8181/api/v1/stock-exchange/EX-1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"api",
+						"v1",
+						"stock-exchange",
+						"EX-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "patch-stock-exchange",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json;charset=utf-8"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8181/api/v1/stock-exchange/EX-1/stock/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"api",
+						"v1",
+						"stock-exchange",
+						"EX-1",
+						"stock",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-stock-exhange",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json;charset=utf-8"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8181/api/v1/stock-exchange/EX-1/stock/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"api",
+						"v1",
+						"stock-exchange",
+						"EX-1",
+						"stock",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

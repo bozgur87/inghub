@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2024-04-17T08:06:03.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="-gALc7YHbXw-rLRgg6oi" version="24.2.5" type="device">
+  <diagram name="Sayfa -1" id="aSkw6HUIIlrhog4cO8MY">
+    <mxGraphModel dx="3040" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E6E6E6" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;Booking Producer&lt;/font&gt;&lt;/span&gt;" id="ErPHjRRE_Ahfz0gvzFwa-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="-1520" y="230" width="130" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;Map&lt;/font&gt;&lt;/span&gt;" id="ErPHjRRE_Ahfz0gvzFwa-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="-1520" y="40" width="130" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;Payments&lt;/font&gt;&lt;/span&gt;" id="ErPHjRRE_Ahfz0gvzFwa-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="-1520" y="640" width="130" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-5" value="L&lt;div&gt;B&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="230" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-1" target="ErPHjRRE_Ahfz0gvzFwa-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1350" y="430" as="sourcePoint" />
+            <mxPoint x="-1300" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Booking Producer Service" id="ErPHjRRE_Ahfz0gvzFwa-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="-1310" y="255" width="110" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-5" target="ErPHjRRE_Ahfz0gvzFwa-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1350" y="430" as="sourcePoint" />
+            <mxPoint x="-1300" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-11" target="ErPHjRRE_Ahfz0gvzFwa-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1190" y="280" as="sourcePoint" />
+            <mxPoint x="-1159.15" y="273.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-16" target="ErPHjRRE_Ahfz0gvzFwa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-16" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="252.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-19" value="R&lt;div&gt;a&lt;/div&gt;&lt;div&gt;b&lt;/div&gt;&lt;div&gt;b&lt;/div&gt;&lt;div&gt;i&lt;/div&gt;&lt;div&gt;t&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;M&lt;/div&gt;&lt;div&gt;Q&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="170" width="80" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.05;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-11" target="ErPHjRRE_Ahfz0gvzFwa-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1250" y="250" as="sourcePoint" />
+            <mxPoint x="-1080" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1255" y="202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;span style=&quot;background-color: rgb(213, 232, 212);&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;Booking Consumer&lt;/font&gt;&lt;/span&gt;" id="ErPHjRRE_Ahfz0gvzFwa-23">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+            <mxGeometry x="-1520" y="450" width="130" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-24" value="L&lt;div&gt;B&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="450" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-23" target="ErPHjRRE_Ahfz0gvzFwa-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1350" y="650" as="sourcePoint" />
+            <mxPoint x="-1300" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Booking Consumer Service" id="ErPHjRRE_Ahfz0gvzFwa-26">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+            <mxGeometry x="-1310" y="475" width="110" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-24" target="ErPHjRRE_Ahfz0gvzFwa-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1350" y="650" as="sourcePoint" />
+            <mxPoint x="-1300" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-28" value="Booking H2 Database&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="460" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-26" target="ErPHjRRE_Ahfz0gvzFwa-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1190" y="500" as="sourcePoint" />
+            <mxPoint x="-1070" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-30" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="490" width="40" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ErPHjRRE_Ahfz0gvzFwa-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.05;exitY=0.624;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ErPHjRRE_Ahfz0gvzFwa-19" target="ErPHjRRE_Ahfz0gvzFwa-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1130" y="430" as="sourcePoint" />
+            <mxPoint x="-1260" y="401" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1255" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
