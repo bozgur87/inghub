@@ -33,7 +33,7 @@ This repository contains a simple example of a code challenge with Java.
 <a name="download"/></a>
 ## Download
   * First of all you need to clone this project. For this, if you have installed git then you can run below code snippet in bash, powershall or terminal.<br>
-      `git clone https://github.com/selen88/eCabs.git`<br>
+      `git clone https://github.com/bozgur87/inghub.git`<br>
     or you can download from github.com project page as a `.zip` file directly and extract.
 
 
