@@ -45,7 +45,7 @@ This repository contains a simple example of a code challenge with Java.
 
 <a name="run"/></a>
 ## Run Project
-  * To run project run above code snippet. After this process, Producer and consumer microservices will start to accept requests over port 8181 with the embedded tomcat server.<br>
+  * To run project run above code snippet. After this process, Stock management microservices will start to accept requests over port 8181 with the embedded tomcat server.<br>
     `java -jar ./target/stock-management-service-0.0.1-SNAPSHOT.jar.jar`<br>
     <br>
   * You can also use Docker. <br>
