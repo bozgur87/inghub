@@ -8,6 +8,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -19,6 +20,24 @@ import static java.util.Objects.nonNull;
 
 @RestControllerAdvice
 public class BaseControllerAdvice {
+
+  @ExceptionHandler({Exception.class})
+  @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)
+  public ApiError handleIntervalServerError(Exception ex, WebRequest request) {
+    final List<InvalidParams> params = new ArrayList<InvalidParams>();
+    params.add(new InvalidParams(ex.getClass().getName(), ex.getMessage()));
+    return new ApiError(Integer.toString(HttpStatus.INTERNAL_SERVER_ERROR.value()),
+            "Unexpected Error", params);
+  }
+
+  @ExceptionHandler({HttpMessageNotReadableException.class})
+  @ResponseStatus(value = HttpStatus.BAD_REQUEST)
+  public ApiError handleMessageNotReadable(HttpMessageNotReadableException ex, WebRequest request) {
+    final List<InvalidParams> params = new ArrayList<InvalidParams>();
+    params.add(new InvalidParams(ex.getClass().getName(), ex.getMessage()));
+    return new ApiError(Integer.toString(HttpStatus.BAD_REQUEST.value()), 
+            HttpStatus.BAD_REQUEST.getReasonPhrase(), params);
+  }
 
   @ExceptionHandler({MethodArgumentNotValidException.class})
   @ResponseStatus(value = HttpStatus.BAD_REQUEST)
